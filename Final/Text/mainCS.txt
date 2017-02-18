@@ -1,0 +1,486 @@
+/*Main Page*/
+body{
+    background: url("../images/Arcade.jpg") no-repeat center center fixed; 
+    margin: 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    top: 50px;
+}
+.navbar {
+    border-radius: 0px !important;
+    margin-bottom: 0px !important;
+}
+#gameDiv{
+
+}
+.row div:first-child{
+    padding-right: 40px;
+}
+a{
+
+}
+a:link {
+    color: orangered;
+}
+a:visited {
+    color: darkorange;
+}
+a:hover {
+    color: cornsilk;
+}
+a:active {
+    color: red;
+}
+.scoreContent{
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+    padding: 5%;
+    height: 100%;
+    color: white;
+    background-color: #000e00;
+    border-style: ridge; 
+    border-width: 5px;
+    border-color: #f2760b;
+    border-radius: 60px;
+}
+/*#frontArcade{
+    display: inline-block;
+    background-image: url("../images/arcadefront.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%; 
+    height: 1080px;
+    position: relative;
+    background-position: bottom;
+}*/
+.bodyContent{
+    font-family: 'Inconsolata';
+    text-align: center;
+    text-shadow: 0 0 20px #00ff00;
+    font-size: 20px;
+    margin-top:50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5%;
+    height: 100%;
+    color: white;
+    background-color: #000e00;
+    border-style: ridge; 
+    border-width: 5px;
+    border-color: #f2760b;
+    border-radius: 60px;
+}
+/*Main Page*/
+
+#loginBody {
+    background-image: url("../images/redUFO.jpg"); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0px;
+}
+#registerBody {
+    background-image: url("../images/redUFO.jpg"); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0px;
+}
+#computer{
+    width: 830px;
+    height: 707px;  
+    background-image: url("../images/loginForm.png");
+    margin: 5% auto;   
+    position: relative;
+}
+.frmStyle{
+    height: 100%;
+    padding-top: 80px;
+}
+.scoreBar{
+    width: 100%;
+    text-align: center;
+    padding-left: 11px;
+}
+#btnBar{
+    position: absolute;
+    bottom: 63px;
+    width: 100%;
+    text-align: center;
+    padding-left: 11px;
+}
+.frmReg {
+    padding: 2px;
+    margin: 10px;
+    margin-left:1px;
+    font-size: 30px;   
+    text-align: left;
+    outline: none;
+    width: 370px;
+    background: none;
+    border  : none;
+    color: #00ff00;
+    text-shadow: 0 0 10px #00ff00;
+}
+
+.lblReg{
+    padding-left: 110px;
+    padding-top: 3px;
+    margin: 10px;
+    margin-right:0px;
+    font-size: 30px;
+    font-family: 'Inconsolata';
+    float: left;
+    clear: left;
+    color: #00ff00;
+    text-shadow: 0 0 10px #00ff00;
+}
+
+p.formTitle{
+    font-size: 40px;
+    font-family: 'Inconsolata';
+    text-align: center;  
+    margin: 0 auto;
+    padding-top: 10px;
+    color: #00ff00;
+    text-shadow: 0 0 20px #00ff00;
+}
+p.mainTitle{
+    font-size:60px;
+    font-family: 'Inconsolata';
+    text-align: center;  
+    margin: 0 auto;
+    padding-top: 80px;
+    color: #00ff00;
+    text-shadow: 0 0 20px #00ff00;
+}
+.topScoreTitle{
+    font-size:40px;
+    font-family: 'Inconsolata';
+    text-align: center;  
+    margin: 0 auto;
+    padding-top: 20px;
+    text-shadow: 0 0 20px #00ff00;
+}
+.scoreBoardContent{
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 20px;
+    padding: 5%;
+    height: 100%;
+    color: white;
+    background-color: #000e00;
+    border-style: ridge; 
+    border-width: 5px;
+    border-color: #f2760b;
+    border-radius: 60px;
+}
+#scoreTitle{
+    font-size:40px;
+    font-family: 'Inconsolata';
+    text-align: center;  
+    margin: 0 auto;
+    padding-top: 50px;
+    text-shadow: 0 0 20px #00ff00;
+}
+#scoreSubTitle{
+    font-size:40px; 
+    font-family: 'Inconsolata';
+    text-align: center;  
+    margin: 0 auto;
+    padding-top: 20px;
+    text-shadow: 0 0 20px #00ff00;
+}
+#playersTitle{
+    font-size:30px;
+    font-family: 'Inconsolata';
+    text-align: center;  
+    margin: 0 auto;
+    padding-top:10px;
+    color: #00ff00;
+    text-shadow: 0 0 20px #00ff00;  
+}
+#btnBar{
+    position: absolute;
+    bottom: 62px;
+    width: 100%;
+    text-align: center;
+    padding-left: 11px;
+}
+#btnBar form{
+    display: inline-block;
+}
+.btnCenter{
+    width: 200px;
+    margin: 0 auto;
+    text-decoration: none;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 18px; 
+    text-align: center;
+    padding-bottom: 5px;
+
+    display: inline-block;
+    outline: #000000;
+    border: #e89e1a;
+    border-width: 5px;
+    border-radius: 7px;  
+    border-style: outset;
+    cursor: crosshair;
+
+    color: #000000;
+    text-shadow: 0 0 10px #ffffff;
+
+    -webkit-animation-name: buttonPulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+.btnForm{
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 18px; 
+    text-align: center;
+    padding-bottom: 5px;
+
+    display: inline-block;
+    outline: #000000;
+    border: #e89e1a;
+    border-width: 5px;
+    border-radius: 7px;  
+    border-style: outset;
+    cursor: crosshair;
+
+    color: #000000;
+    text-shadow: 0 0 10px #ffffff;
+
+    -webkit-animation-name: buttonPulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes buttonPulse {
+    from { background-color: #e89e1a; -webkit-box-shadow: 0 0 9px #e89e1a; }
+    50% { background-color: #f2760b; -webkit-box-shadow: 0 0 18px #f2760b; }
+    to { background-color: #e89e1a; -webkit-box-shadow: 0 0 9px #e89e1a; }
+}
+
+
+#starfield {
+    width:100%;
+    height:100%;
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+} 
+
+
+#tblAliens{
+    position: absolute;
+}
+#tblAliens tr td{
+    padding: 5px;
+}
+#ship{ 
+    position: absolute;
+}
+#shot{
+    position: absolute;
+}
+#gamepanel {
+    width:100%;
+    height:100%;
+} 
+#starfield {
+    width:100%;
+    height:100%;
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+canvas {
+    border-style: groove;
+    border-color: #f2760b;
+    border-radius: 10px;
+    display: block;
+    margin: 50px auto;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+}
+
+.tblScore{
+    /*    border-style: dashed;
+        border-color: #00ff00;   */
+    font-family: 'Inconsolata';
+    width: 350px;
+    height: 20px;
+    font-size: 25px;  
+    margin: 0 auto;
+    position: relative;
+    text-shadow: 0 0 20px #00ff00;
+}
+#tblPlayer{
+    font-family: 'Inconsolata';
+    text-align: center;
+    margin-top: 40px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#playerscore{   
+    color: white;
+    margin-left: 10px;
+    position: absolute;
+}
+#score{   
+    color: white;
+    left: 0px;
+    margin-left: 10px;
+    position: relative;
+}
+#playerInfo{
+    color: white;
+}
+.scoreboard{
+    color: white;
+}
+#game-over, #game-over-overlay {
+    margin: auto;
+    width: 512px;
+    height: 480px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: none;
+}
+#reviewTitleJAcked{
+    font-size: 60px;
+    font-family: 'Inconsolata';
+    text-align: center;
+    margin: 0 auto;
+    text-shadow: 0 0 20px #00ff00;
+}
+.reviewTitle{
+    font-size: 40px;
+    font-family: 'Inconsolata';
+    text-align: center;
+    margin: 0 auto;
+    text-shadow: 0 0 20px #00ff00;
+}
+.reviewForm{
+    font-family: 'Inconsolata';
+    text-shadow: 0 0 20px #00ff00;
+    color:white;
+}
+/*.reviewLabal{
+    font-family: 'Inconsolata';
+    text-shadow: 0 0 20px #00ff00;
+    color:white;
+}*/
+.reviewRadio{
+    font-family: 'Inconsolata';
+    text-shadow: 0 0 20px #00ff00;
+    color:white;
+    margin: 0;
+}
+.lblReview{
+    font-family: 'Inconsolata';
+    text-shadow: 0 0 20px #00ff00;
+    color:white;
+}
+
+.review-label {
+    font-family: 'Inconsolata';
+    text-shadow: 0 0 20px #00ff00;
+    color:white;
+    display: inline-block;
+    vertical-align: inherit;
+    margin-right: 3%;
+}
+.review-labelView {
+    font-family: 'Inconsolata';
+    text-shadow: 0 0 20px #00ff00;
+    color:white;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+review-label{
+    font-family: 'Inconsolata';
+    text-shadow: 0 0 20px #00ff00;
+    color:white;
+    display: inline-block;
+    vertical-align: inherit;
+    margin-right: 3%;
+}
+.radio-input {
+    display: inline-block;
+    vertical-align: central;
+}
+
+.reviewComment{
+    border-color: #e89e1a;
+    background-color: #000e00;
+    font-family: 'Inconsolata';
+    text-shadow: 0 0 20px #00ff00;
+    color:white;
+}
+.viewComment{
+    background-color: #000c00;
+    font-family: 'Inconsolata';
+    text-shadow: 0 0 20px #00ff00;
+    color:white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#reviewLink{
+    text-align: center;
+}
+.tblReview{
+    font-family: 'Inconsolata';
+    width: 550px;
+    height: 20px;
+    font-size: 30px; 
+    margin: 0 auto;
+    position: relative;
+    text-align:center; 
+    text-shadow: 0 0 20px #00ff00;
+}
+.reviewComment{
+    background-color: #000e00;
+    font-family: 'Inconsolata';
+    text-shadow: 0 0 20px #00ff00;
+    color:white;
+}
+
+.reviewContent{
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    padding: 5%;
+    height: 100%;
+    color: white;
+    background-color: #000c00;
+    border-style: dotted; 
+    border-width: 5px;
+    border-color: #f2760b;
+    border-radius: 60px;
+}
